@@ -11,8 +11,15 @@
     <p>HTTP vem de Hypertext Transfer Protocol(Protocolo de Transferência de Hipertexto). É um protocolo, uma forma de conversa entre duas máquinas, que permite transferir um hipertexto de um lado a outro.</p>
     <h2>Cliente e Servidor</h2>
     <p>O cliente e servidor se comunicam através de trocas de mensagens. As mensagens enviadas pelo cliente, geralmente um navegador da Web, são chamadas de requisições ou solicitações(requests), as mensagens que são enviadas pelo servidor como resposta são chamadas de respostas(responses).</p>
-    <img src="request01.png" alt="request">
-    <p>No exemplo acima temos </p>
-    <p></p>
+    <img src="request01.png" alt="request" id="imgreq">
+    <p>No exemplo acima, eu simplesmente recarreguei a página, dessa forma vemos o navegador pedindo recursos para o servidor daquele site que recarregamos, ele está fazendo essa requisição justamente para poder recarregar a página e gerar o resultado para o usuário. No caso da response é exatamente a resposta que ele dá para o usuário, podemos ver na imagem que em <strong>status</strong>, todos deram <strong>200</strong>, o que isso significa? Siginifica que está tudo <strong>OK!</strong></p>
+    <p>Caso o navegador por exemplo coloque o status <strong>404</strong>, siganifica que ele não encontrou aquela página que você estava procurando naquele servidor, para mais informações recomendo acessar o site abaixo:</p>
+    <a href="https://www.w3schools.com/tags/ref_httpmessages.asp">Site</a>
+    <p>Na request para ela pedir dados para o servidor, ela utiliza alguns métodos, entre eles pode encontrar alguns desses abaixo:</p>
+    <ul>
+        <li><mark>GET</mark>:Solicita dados do servidor.</li>
+        <li><mark>POST</mark>:Envia dados para o servidor.</li>
+        <li><mark>DELETE</mark>:Remove dados para o servidor.</li>
+    </ul>
 </body>
 </html>

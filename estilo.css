@@ -1,7 +1,6 @@
 img#foto3x4{
     width: 100px;
     height: auto;
-    text-align: end;
 }
 table, td, th{
     border: 1px solid black;
@@ -44,4 +43,20 @@ a:hover{
 }
 #txtinfo{
     font-style: italic;
+}
+#imglee{
+    width: 400px;
+    height: auto;
+}
+#imgint{
+    width: 400px;
+    height: auto;
+}
+#imgemail{
+    width: 400px;
+    height: auto;
+}
+#imgreq{
+    width: 800px;
+    height: 300px;
 }

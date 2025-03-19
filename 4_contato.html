@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>Preencha os campos de contato abaixo:</h2>
+    <p id="txtinfo">Preciso das informações dos campos abaixo, para prosseguir com a contratação, assinale e preencha os campos corretamente, assim que terminar clique em <strong>Enviar</strong> para suas informações serem submetidas.</p>
+        <form>
+            <label for="nome" id="nome">Nome:</label>
+                <input type="text" id="txtnome" placeholder="Insira seu nome" size="30" required>
+
+            <label for="email" id="email">Email:</label>
+               <input type="email" name="txtemail" id="txtemail" placeholder="Insira seu email" size="30" required>
+        
+            <label for="assunto" id="assunto">Assunto:</label>
+                <input type="text" name="txtassunto" id="txtassunto" placeholder="Insira um assunto" size="30" required>
+        </form>
+
+    <label for="estados" id="estados">Selecione seu estado:</label>
+    <select name="estados" id="estados">
+        <option value="MG">Minas Gerais</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="AC">Acre</option>
+        <option value="AM">Amazonas</option>
+        <option value="RR">Roraima</option>
+        <option value="PA">Pará</option>
+        <option value="RO">Rondônia</option>
+        <option value="AP">Amapá</option>
+        <option value="TO">Tocantins</option>
+        <option value="MA">Maranhão</option>
+        <option value="PI">Piauí</option>
+        <option value="CE">Ceará</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="PB">Paraíba</option>
+        <option value="PE">Pernambuco</option>
+        <option value="AL">Alagoas</option>
+        <option value="SE">Sergipe</option>
+        <option value="BA">Bahia</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="PR">Paraná</option>
+        <option value="SC">Santa Catarina</option>
+    </select>
+    <div>
+        <label for="msg" id="msg">Escreva uma mensagem:</label>
+        <textarea name="msg" id="txtmsg" placeholder="Insira sua mensagem" cols="30" rows="10"></textarea>
+    </div>
+    <label for="enviar" id="btnenviar">
+        <input type="button" value="Enviar" id="btnenviar">
+    </label>
+</body>
+</html>

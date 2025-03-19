@@ -1,0 +1,47 @@
+img#foto3x4{
+    width: 100px;
+    height: auto;
+    text-align: end;
+}
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+label#email{
+    display: block;
+    margin-top: 10px;
+}
+label#nome{
+    display: block;
+    margin-top: 10px;
+}
+label#assunto{
+    display: block;
+    margin-top: 10px;
+}
+label#estados{
+    display: block;
+    margin-top: 20px;
+}
+label#msg{
+    display: block;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+#btnenviar{
+    background-color: white;
+    border: 1px solid black;
+}
+#btnenviar:hover{
+    background-color: grey;
+}
+#txtinfo{
+    font-style: italic;
+}
